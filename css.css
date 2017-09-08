@@ -32,14 +32,14 @@ body,html{
 
 
 #skills {
-	margin-top: 20px;
+	margin-top: 0 auto;
 	text-align: center;
 }
 
 #skills_header {
 
 
-	margin-top: 60px;
+	margin-top: 0 auto;
 
 }
 
@@ -54,14 +54,14 @@ p {
 #my_work {
 
 	text-align: center;
-	margin-left: 47.5%;
+	
 }
 
 #about_me {
 
 	display: inline-block;
-	margin-top: 30px; 
-	margin-left: 30%;  
+	margin-top: 0 auto; 
+	margin-left: 0 auto;  
 }
 
 
@@ -70,11 +70,11 @@ p {
 
 	display: inline-block;
 	float: left;
-	margin-left: 42%;
+	margin-left: 0 auto;
 	border-radius: 25px;
 	width: 200px;
 	height:200px;
-	margin-top: 20px;
+	margin-top: 0 auto;
 
 
 }
