@@ -1,0 +1,80 @@
+
+body { 
+
+	background-color: white;
+
+}
+
+
+h1, h2, h3 {
+
+	text-align: center;
+
+}
+
+
+
+
+
+
+body,html{
+ height:100%;
+}
+
+.container{
+ min-height:100%;
+}
+
+.footer{
+ height:40px;
+ margin-top:-40px;
+}
+
+
+#skills {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#skills_header {
+
+
+	margin-top: 60px;
+
+}
+
+
+p {
+
+	text-align: justify-all;
+
+}
+
+
+#my_work {
+
+	text-align: center;
+	margin-left: 47.5%;
+}
+
+#about_me {
+
+	display: inline-block;
+	margin-top: 30px; 
+	margin-left: 30%;  
+}
+
+
+
+#profile_img {
+
+	display: inline-block;
+	float: left;
+	margin-left: 42%;
+	border-radius: 25px;
+	width: 200px;
+	height:200px;
+	margin-top: 20px;
+
+
+}
