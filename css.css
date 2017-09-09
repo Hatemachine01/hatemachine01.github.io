@@ -73,3 +73,23 @@ p {
 
 
 }
+
+
+
+.contact {
+
+	display: none;
+	margin: 0 auto;
+	    margin-top: 0em;
+	text-align: center;
+	width: min-content;
+
+}
+
+
+.contact-trigger {
+
+	display: block;
+	margin: 0 auto;
+
+}
