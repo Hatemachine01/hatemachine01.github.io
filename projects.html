@@ -24,7 +24,9 @@
 <img class="first-project  img-responsive" src="first_project.png">
 </a>
 
+<a class="source-link" href="https://github.com/Hatemachine01/appointment_maker"> View Source </a>
 
+<p> Client needed a platform where his clients could shedule appointments with him, aswell as the ability to message his clients through an internal messaging system. I developed the platform using Ruby on Rails and implemted various gems to aid with the functionalities. You can read more about the funtionalities <a href="https://arcane-stream-73726.herokuapp.com/application/about"> here.</p>
 
 
 
@@ -37,7 +39,7 @@
 
 
 <div class="container"> 
- <div class="navbar navbar-inner  navbar-fixed-bottom">
+ <div class="navbar navbar-inner  navbar-bottom">
     <p class="muted credit">
 	    <center>
 		<a href="https://github.com/Hatemachine01">Github</a>&nbsp; |
@@ -47,6 +49,25 @@
 		</center>
 	</p>
 </div>
+
+<h3 class="contact-trigger   glyphicon glyphicon-envelope" ></h3>
+<form class="contact" action="https://postmail.invotes.com/send"
+    method="post" id="email_form">
+    <div class="form-group">
+    <div class="col-md-6">
+    <input type="text" name="subject" placeholder="  Subject" />
+    <textarea name="text" placeholder="Message + your email"></textarea>
+    </div>
+    </div>
+    <input type="hidden" name="access_token" value="88bhlhdmcxk3rqwufxrvcew5" />
+    <input type="hidden" name="success_url" value=".?message=Email+Successfully+Sent%21&isError=0" />
+    <input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />  
+    <div class="form-group">
+    <div class="col-md-12">
+    <input id="submit_form" type="submit" value="Send" class="btn btn-primary" />
+    </div>
+    </div>
+</form>
 </div>
 </div>
 </body>

@@ -95,3 +95,12 @@ p {
     padding: 0;
    
 }
+
+.source-link {
+
+	display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px
+}
