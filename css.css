@@ -104,3 +104,16 @@ p {
     margin-top: 15px;
     margin-bottom: 15px
 }
+
+
+.next-project {
+
+	display: none;
+}
+
+
+.arrow {
+	display: block;
+	margin: 0 auto;
+	height: 40px;
+}
