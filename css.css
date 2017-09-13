@@ -50,6 +50,7 @@ p {
 	text-align: center;
 	margin: 0 auto;
 	width: 110px;
+	margin-bottom: 30px;
 	}
 
 #about_me {
@@ -115,4 +116,20 @@ p {
 	display: block;
 	margin: 0 auto;
 	height: 40px;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px  !important;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+h4 {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+
 }
