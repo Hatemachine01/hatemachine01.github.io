@@ -18,6 +18,8 @@ body,html{
  font-size: 18px;
 }
 
+}
+
 .footer{
  height:40px;
  margin-top:-40px;
@@ -139,4 +141,86 @@ h4 {
 	display: block;
 	margin: 0 auto;
 	text-align: center;
+}
+
+
+#navbar {
+  display: inline-block;
+  position: fixed;
+  left :0;
+  top : 0;
+  background-color: white;
+  box-shadow: 10px;
+  height: 100%;
+
+
+}
+
+#navbar ul {
+
+  padding-left: 4px;
+  padding-right: 5px;  
+}
+
+
+
+
+
+#navbar  li {
+
+  list-style-type: none;
+  margin-top: 15px;
+  margin-left: 0;
+  padding-left: 0;
+
+
+
+}
+
+
+#navbar li a {
+  text-decoration: none;
+  color: black;
+  border-style: black, 2px;
+
+}
+
+#line {
+
+  color: #f00;
+}
+
+#sticky-sidebar {
+position:fixed;
+max-width: 20%;
+}
+
+@media only screen and (min-width : 320px) {
+  .container, .container-fluid {
+    padding-left: 100px; // just an example
+  }
+}
+
+@media only screen and (min-width : 480px) {
+  .container, .container-fluid {
+    padding-left: 100px; // just an example
+  }
+}
+
+@media only screen and (min-width : 768px) {
+  .container, .container-fluid {
+    padding-left: 100px; // just an example
+  }
+}
+
+@media only screen and (min-width : 992px) {
+  .container, .container-fluid {
+    padding-left: 100px; // just an example
+  }
+}
+
+@media only screen and (min-width : 1200px) {
+  .container, .container-fluid {
+    padding-left: 100px; // just an example
+  }
 }
