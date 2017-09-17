@@ -152,13 +152,9 @@ h4 {
   background-color: white;
   height: 100%;
 
-
-
 }
 
-#navbar a:hover {
-	background-color: pink;
-}
+
 
 #navbar ul {
 
@@ -175,6 +171,7 @@ h4 {
   list-style-type: none;
   margin-top: 15px;
   margin-left: 0;
+  padding-bottom:  25px; /* Add some padding */
   padding-left: 0;
 
 
