@@ -195,32 +195,12 @@ position:fixed;
 max-width: 20%;
 }
 
-@media only screen and (min-width : 320px) {
+
+
+@media only screen and (min-width : 300px) {
   .container, .container-fluid {
-    padding-left: 100px; // just an example
+    padding-left: 50px; // just an example
   }
 }
 
-@media only screen and (min-width : 480px) {
-  .container, .container-fluid {
-    padding-left: 100px; // just an example
-  }
-}
-
-@media only screen and (min-width : 768px) {
-  .container, .container-fluid {
-    padding-left: 100px; // just an example
-  }
-}
-
-@media only screen and (min-width : 992px) {
-  .container, .container-fluid {
-    padding-left: 100px; // just an example
-  }
-}
-
-@media only screen and (min-width : 1200px) {
-  .container, .container-fluid {
-    padding-left: 100px; // just an example
-  }
 }
