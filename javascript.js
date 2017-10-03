@@ -8,4 +8,5 @@ $( document ).ready(function() {
     $(".arrow-link").hide();
     $("html, body").animate({ scrollTop: $(document).height() }, "slow");
     });
+
 });

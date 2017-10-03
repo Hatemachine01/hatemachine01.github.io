@@ -5,12 +5,17 @@ h1, h2, h3 {
 }
 
 
-
-body,html{
- height:100%;
- background-color: #F5F5F5;
-
+html,
+body {
+  height: 95%;
+  margin: 0;
 }
+
+section {
+  height: 100vh;
+}
+
+
 
 .container{
  min-height:100%;
@@ -110,7 +115,7 @@ p {
 
 .next-project {
 
-	display: none;
+	
 }
 
 
@@ -201,3 +206,5 @@ h4 {
 }
 
 }
+
+
