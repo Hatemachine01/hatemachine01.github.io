@@ -197,16 +197,10 @@ h4 {
 
 
 @media only screen and (min-width : 300px) {
-  
   .container, .container-fluid {
     padding-left: 50px; 
   }
-  
-
-
 }
-
-
 
 }
 
