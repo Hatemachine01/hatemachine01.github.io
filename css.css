@@ -7,13 +7,10 @@ h1, h2, h3 {
 
 html,
 body {
-  height: 95%;
+  height: 100%;
   margin: 0;
 }
 
-section {
-  height: 100vh;
-}
 
 
 
@@ -200,10 +197,16 @@ h4 {
 
 
 @media only screen and (min-width : 300px) {
+  
   .container, .container-fluid {
     padding-left: 50px; 
   }
+  
+
+
 }
+
+
 
 }
 
