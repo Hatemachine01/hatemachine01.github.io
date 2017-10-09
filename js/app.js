@@ -11,6 +11,11 @@ particlesJS.load('particles-js', 'particles.json', function() {
 
 /* Otherwise just put the config content (json): */
 
+
+
+console.log("here");
+
+
 particlesJS('particles-js',
   
   {
@@ -82,7 +87,7 @@ particlesJS('particles-js',
       }
     },
     "interactivity": {
-      "detect_on": "canvas",
+      "detect_on": "window",
       "events": {
         "onhover": {
           "enable": true,
