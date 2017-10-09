@@ -1,107 +1,259 @@
-html, body {
-    width: 100%;
-    height: 100%;
+h1, h2, h3 {
+
+    text-align: center;
+
+}
+
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  color:white;
+}
+
+
+
+
+.container{
+ min-height:100%;
+ width: 100%;
+ font-size: 18px;
+}
+
+}
+
+.footer{
+ height:40px;
+ margin-top:-40px;
+}
+
+#skills {
+    margin: 10px auto;
+    text-align: center;
+}
+
+#skills_header {
+
+
+    margin: 20px auto;
+
+}
+
+
+p {
+    
+    text-align: center;
+
+}
+
+
+.my_work {
+
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 110px;
+    margin-bottom: 30px;
+    }
+
+#about_me {
+
+        margin: 20px auto; 
+    
+}
+
+
+
+#profile_img {
+
+    display: block;
+    margin: 0 auto;
+    border-radius: 25px;
+    width: 200px;
+    height:200px;
+}
+
+
+
+.contact {
+
+    display: none;
+    margin: 0 auto;
+    margin-top: 0em;
+    text-align: center;
+    width: min-content;
+}
+
+
+.contact-trigger {
+
+    display: block;
+    margin: 0 auto;
+}
+
+.first-project {
+    
+    display: block;
+    margin: 0 auto;
     padding: 0;
-    margin: 0;
-    overflow: hidden;
+   
+}
+
+.source-code {
+    
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px
 }
 
 
-header {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    background-color: #f2f2f2;
+.next-project {
+
+    
 }
 
-header nav {
+
+.arrow {
+    display: block;
+    margin: 0 auto;
+    height: 40px;
 }
 
-header ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-header ul li {
-    display: inline-block;
-    padding: 0 20px;
-}
-
-header ul a {
-    font-weight: 700;
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px  !important;
+    width: 50px;
+    text-align: center;
     text-decoration: none;
-    color: #4d4d4d;
-    height: 50px;
+}
+
+h4 {
     display: block;
-    position: relative;
+    margin: 0 auto;
+    text-align: center;
+
 }
 
-header ul a span {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    display: inline-block;
-}
+.email-icon {
 
-section {
-    float: left;
     display: block;
-    height: 100%;
-    padding: 75px 0 0 0;
-    margin: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+#navbar {
+  display: inline-block;
+  position: fixed;
+  left :0;
+  top : 0;
+  background-color: white;
+  height: 100%;
+
 }
 
 
 
-/* ---- stats.js ---- */
+#navbar ul {
 
-.count-particles{
-  background: #000022;
-  position: absolute;
-  top: 48px;
-  left: 0;
-  width: 80px;
-  color: #13E8E9;
-  font-size: .8em;
-  text-align: left;
-  text-indent: 4px;
-  line-height: 14px;
-  padding-bottom: 2px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
+  padding-left: 4px;
+  padding-right: 5px;  
 }
 
-.js-count-particles{
-  font-size: 1.1em;
+
+
+
+
+#navbar  li {
+
+  list-style-type: none;
+  margin-top: 15px;
+  margin-left: 0;
+  padding-bottom:  25px; /* Add some padding */
+  padding-left: 0;
+
+
+
 }
 
-#stats,
-.count-particles{
-  -webkit-user-select: none;
-  margin-top: 5px;
-  margin-left: 5px;
+
+#navbar li a {
+  text-decoration: none;
+  color: black;
+  border-style: black, 2px;
+
 }
 
-#stats{
-  border-radius: 3px 3px 0 0;
-  overflow: hidden;
+#line {
+
+  color: #f00;
 }
 
-.count-particles{
-  border-radius: 0 0 3px 3px;
+
+
+
+@media only screen and (min-width : 300px) {
+  .container, .container-fluid {
+    padding-left: 50px; 
+  }
 }
 
+}
+
+
+/* ---- reset ---- */
+
+body {
+  margin: 0;
+  font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
 
 /* ---- particles.js container ---- */
 
-#particles-js{
+#particles-js {
+  position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #b61924 
-  background-image: url('');
-  background-size: cover;      
-  background-position: 50% 50%; 
-  background-repeat: no-repeat; 
+  background-color: #000022;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+
+
+
+body,
+html {
+    height: 100%
+}
+
+#particles-js canvas {
+    display: block;
+    vertical-align: bottom;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0
 }
