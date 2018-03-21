@@ -4,6 +4,13 @@ h1, h2, h3 {
 
 }
 
+h1 { color: #111; 
+font-family: 'Helvetica Neue', sans-serif; 
+font-size: 40px; 
+font-weight: bold; 
+letter-spacing: -1px; 
+line-height: 1; 
+}
 
 html,
 body {
@@ -76,7 +83,7 @@ p {
 section {
     
     display: block;
-    padding: 50px;
+    padding: 5px;
     box-sizing:border-box;
 }
 
@@ -91,22 +98,6 @@ section {
 }
 
 
-
-.contact {
-
-	display: none;
-	margin: 0 auto;
-	margin-top: 0em;
-	text-align: center;
-	width: min-content;
-}
-
-
-.contact-trigger {
-
-	display: block;
-	margin: 0 auto;
-}
 
 .first-project {
 	
