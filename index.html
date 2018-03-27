@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/css.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
 
 	<!-- optional, prevents the submit button from being pressed more than once -->
 </head>
@@ -43,16 +44,18 @@
     </div>
 
     <div class="container">
-        <h1> Julio Vasquez   </h1>
+        <h1 data-anijs="if: mouseover, do: swing animated" > Julio Vasquez  </h1>
+        
         <img id="profile_img" src="./images/img.jpeg">
     </div>
     
     <div class="container">
         <div id="main_text"> 
-            <p class="lead" id="about_me">&nbsp;Julio Vasquez is a web developer based in NYC and Mexico City.<br> &nbsp;Julio's favorite tools are Ruby and Ruby on Rails. Outside of clean code,<br> &nbsp;Julio enjoys traveling, literature and photography.
+            <p class="lead" id="about_me">&nbsp;Julio Vasquez is a web developer based in New York City and Mexico City.<br> &nbsp;His favorite tools are Ruby and Ruby on Rails. Outside of clean code,<br> &nbsp;Julio enjoys traveling, literature and photography.
             </p>
             <p class="lead">
-            He has a B.A in Psychology from the City College of New York and is currently in the process jumping into the tech field.<br> He has been learning Web Development for a year and succesfully completed 620 hours of intense learning  at CodeaCamp in Mexico City. </p>
+                He can be reached at <a href="mailto:juliodevasquez@gmail.com">juliodevasquez@gmail.com</a>.
+            </p>
 
         </div>
         <br>
@@ -64,7 +67,7 @@
         <h2 id="skills_header" > Skills </h2>
         <p id="skills"> 
 
-        <strong> Backend : </strong> Ruby, Ruby on Rails, RSpec, Capybara,  Sinatra, Ajax, RESTful API, PostgresSQL, MySQL
+        <strong> Backend : </strong> Ruby, Ruby on Rails, RSpec, Capybara, <br> Sinatra, Ajax, RESTful API, PostgresSQL, MySQL
         <br>
         <strong> Frontend : </strong> JavaScript , jQuery, HTML5, CSS3, Bootstrap
         <br>
@@ -78,6 +81,8 @@
 
         <!-- Latest compiled and minified CSS -->
         <!-- jQuery library -->
+        <script src="./dist/anijs-min.js"></script>
+                <script src="./dist/helpers/scrollreveal/anijs-helper-scrollreveal-min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
