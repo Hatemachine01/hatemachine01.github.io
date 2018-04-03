@@ -11,11 +11,6 @@ particlesJS.load('particles-js', 'particles.json', function() {
 
 /* Otherwise just put the config content (json): */
 
-
-
-console.log("here");
-
-
 particlesJS('particles-js',
   
   {
