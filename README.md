@@ -1,2 +1,2 @@
 Personal site
-<a href="juliovasquezdev.com">juliovasquezdev.com</a>
+<a href="http://juliovasquezdev.com">juliovasquezdev.com</a>
