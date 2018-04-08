@@ -25,6 +25,16 @@ h5,
 h6 {
   font-weight: 700;
 }
+
+
+
+
+
+
+
+
+
+
 a {
   color: #2d7788;
   -webkit-transition: all 0.4s ease-in-out;
@@ -228,13 +238,16 @@ p {
   margin-bottom: 15px;
 }
 .skillset .item {
-  margin-bottom: 15px;
+  float:left;
   overflow: hidden;
+
 }
 .skillset .level-title {
   font-size: 14px;
   margin-top: 0;
-  margin-bottom: 12px;
+  margin-bottom: 5px;
+  margin-left: 8px;
+  
 }
 .skillset .level-bar {
   height: 12px;
