@@ -4,6 +4,13 @@ h1, h2, h3 {
 
 }
 
+h4 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
 h1 { color: #111; 
 font-family: 'Helvetica Neue', sans-serif; 
 font-size: 40px; 
@@ -18,8 +25,6 @@ body {
   height: 100%;
   margin: 0;
 }
-
-
 
 
 .container{
@@ -128,12 +133,7 @@ section {
     text-decoration: none;
 }
 
-h4 {
-	display: block;
-	margin: 0 auto;
-	text-align: center;
 
-}
 
 .email-icon {
 
@@ -142,6 +142,8 @@ h4 {
 	text-align: center;
 }
 
+
+/* Style Nav BaR */
 
 #navbar {
   display: inline-block;
@@ -186,6 +188,33 @@ h4 {
 }
 
 
+
+
+
+/* Style Nav BaR for Mobile Landscape Viewing */
+
+
+@media (max-height: 450px) {
+    #navbar {
+      display: inline-block;
+      bottom:0;  
+      opacity: 0.5;
+    }
+
+
+     #navbar ul li  {
+
+      padding: 0;
+      margin: 0;
+
+  }
+
+     #navbar ul li a {
+
+      padding: 0;
+      margin: 0;
+  }
+}
 
 
 
@@ -246,26 +275,3 @@ canvas {
     left: 0
 }
 
-
-
-@media (max-height: 450px) {
-  #navbar {
-    display: inline-block;
-    bottom:0;  
-    opacity: 0.5;
-  }
-
-
-   #navbar ul li  {
-
-    padding: 0;
-    margin: 0;
-
-}
-
-   #navbar ul li a {
-
-    padding: 0;
-    margin: 0;
-
-}
