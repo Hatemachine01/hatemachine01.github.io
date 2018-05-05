@@ -12,6 +12,7 @@ letter-spacing: -1px;
 line-height: 1; 
 }
 
+
 html,
 body {
   height: 100%;
@@ -117,17 +118,8 @@ section {
 }
 
 
-.next-project {
-
-	
-}
 
 
-.arrow {
-	display: block;
-	margin: 0 auto;
-	height: 40px;
-}
 
 /* Style all font awesome icons */
 .fa {
@@ -236,7 +228,6 @@ canvas {
   background-size: cover;
   background-position: 50% 50%;
 }
-
 
 
 
