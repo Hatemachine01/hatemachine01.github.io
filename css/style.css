@@ -119,9 +119,6 @@ section {
 
 
 
-
-
-
 /* Style all font awesome icons */
 .fa {
     padding: 20px;
@@ -247,4 +244,28 @@ canvas {
     z-index: -10;
     top: 0;
     left: 0
+}
+
+
+
+@media (max-height: 450px) {
+  #navbar {
+    display: inline-block;
+    bottom:0;  
+    opacity: 0.5;
+  }
+
+
+   #navbar ul li  {
+
+    padding: 0;
+    margin: 0;
+
+}
+
+   #navbar ul li a {
+
+    padding: 0;
+    margin: 0;
+
 }
