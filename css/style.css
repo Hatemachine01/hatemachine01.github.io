@@ -1,62 +1,71 @@
 h1, h2, h3 {
 
-	text-align: center;
+  text-align: center;
 
 }
 
 h4 {
+
   display: block;
   margin: 0 auto;
   text-align: center;
 
 }
 
-h1 { color: #111; 
-font-family: 'Helvetica Neue', sans-serif; 
-font-size: 40px; 
-font-weight: bold; 
-letter-spacing: -1px; 
-line-height: 1; 
+h1 { 
+
+  color: #111; 
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 40px; 
+  font-weight: bold; 
+  letter-spacing: -1px; 
+  line-height: 1; 
+
 }
 
 
 html,
 body {
+
   height: 100%;
   margin: 0;
+
 }
 
 
-.container{
- min-height:100%;
- width: 100%;
- font-size: 18px;
-}
+.container {
+
+  min-height:100%;
+  width: 100%;
+  font-size: 18px;
 
 }
+
+
 
 .footer{
- height:40px;
- margin-top:-40px;
+
+  height:40px;
+  margin-top:-40px;
 }
 
 
 project-img {
   
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
    
 }
 
 
 #skills {
-	margin: 10px auto;
+	
+  margin: 10px auto;
 	text-align: center;
 }
 
 #skills_header {
-
 
 	margin: 20px auto;
 
@@ -64,7 +73,7 @@ project-img {
 
 
 p {
-	
+
 	text-align: center;
 
 }
@@ -77,20 +86,22 @@ p {
 	margin: 0 auto;
 	width: 110px;
 	margin-bottom: 30px;
-	}
+	
+}
 
 #about_me {
 
-		margin: 20px auto; 
+	margin: 20px auto; 
 	
 }
 
 
 section {
     
-    display: block;
-    padding: 5px;
-    box-sizing:border-box;
+  display: block;
+  padding: 5px;
+  box-sizing:border-box;
+
 }
 
 
@@ -101,28 +112,27 @@ section {
 	border-radius: 25px;
 	width: 200px;
 	height:200px;
-}
 
+}
 
 
 .first-project {
 	
 	display: block;
-    margin: 0 auto;
-    padding: 0;
+  margin: 0 auto;
+  padding: 0;
    
 }
 
 .source-code {
 	
 	display: block;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom: 15px
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px
+
 }
-
-
 
 /* Style all font awesome icons */
 .fa {
@@ -156,16 +166,11 @@ section {
 }
 
 
-
 #navbar ul {
 
   padding-left: 4px;
   padding-right: 5px;  
 }
-
-
-
-
 
 #navbar  li {
 
@@ -179,7 +184,6 @@ section {
 
 }
 
-
 #navbar li a {
   text-decoration: none;
   color: black;
@@ -187,18 +191,15 @@ section {
   padding-left:5px;
 }
 
-
-
-
-
 /* Style Nav BaR for Mobile Landscape Viewing */
-
 
 @media (max-height: 450px) {
     #navbar {
+
       display: inline-block;
       bottom:0;  
       opacity: 0.5;
+
     }
 
 
@@ -207,26 +208,22 @@ section {
       padding: 0;
       margin: 0;
 
-  }
+    }
 
      #navbar ul li a {
 
       padding: 0;
       margin: 0;
-  }
+    
+    }
 }
-
-
-
 
 @media only screen and (min-width : 300px) {
-  .container, .container-fluid {
-    padding-left: 50px; 
+    .container, .container-fluid {
+      padding-left: 50px; 
+    }
   }
 }
-
-}
-
 
 /* ---- reset ---- */
 
@@ -243,6 +240,7 @@ canvas {
 /* ---- particles.js container ---- */
 
 #particles-js {
+  
   position: absolute;
   width: 100%;
   height: 100%;
@@ -251,22 +249,24 @@ canvas {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
+
 }
 
-
-
 #particles-js canvas {
-    display: block;
-    vertical-align: bottom;
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    opacity: 1;
-    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
-    transition: opacity .8s ease, transform 1.4s ease
+  
+  display: block;
+  vertical-align: bottom;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+  transition: opacity .8s ease, transform 1.4s ease
+
 }
 
 #particles-js {
+
     width: 100%;
     height: 100%;
     position: fixed;
