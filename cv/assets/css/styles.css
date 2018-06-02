@@ -26,15 +26,6 @@ h6 {
   font-weight: 700;
 }
 
-
-
-
-
-
-
-
-
-
 a {
   color: #2d7788;
   -webkit-transition: all 0.4s ease-in-out;
@@ -53,7 +44,7 @@ p {
   line-height: 1.5;
 }
 .wrapper {
-  background: #42A8C0;
+  background: #95a0a3;
   max-width: 960px;
   margin: 0 auto;
   position: relative;
