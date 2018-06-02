@@ -39,7 +39,7 @@ body {
 
   display: block;
   margin: 5%;
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 
@@ -124,10 +124,17 @@ section {
 
   float: left;
 	border-radius: 10px;
-	width: 150px;
-	height: 150px;
+	width: 200px;
+	height: 200px;
   margin-right: 15px; 
 
+}
+
+@media screen and (max-width: 400px) {
+    #profile_img{
+        width: 100px;
+        height: 100px;
+    }
 }
 
 
@@ -167,12 +174,6 @@ section {
 	text-align: center;
 }
 
-
-/*.blog-btn {
-
-    margin-right: 75%;
-    margin-top: 15px;
-}*/
 
 .btn {
   display: inline-block;
@@ -224,7 +225,7 @@ section {
     box-shadow: 0 3px 0 0 #007299;
 }
 .btn-primary.raised:active, .btn-primary.raised.active {
-    background: #33a6cc;
+    background: #428bca;
     box-shadow: none;
     margin-bottom: -3px;
     margin-top: 3px;
@@ -332,6 +333,10 @@ section {
     }
   }
 }
+
+
+
+
 
 /* ---- reset ---- */
 
