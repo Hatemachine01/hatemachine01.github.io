@@ -59,10 +59,12 @@ project-img {
 }
 
 
-#skills {
+.skills {
 	
-  margin: 10px auto;
-	text-align: center;
+  margin: 0 auto;
+  width: 75%;
+  margin-top: 20px;
+	
 }
 
 #skills_header {
@@ -74,10 +76,19 @@ project-img {
 
 p {
 
-	text-align: center;
+	text-align: justify;
 
 }
 
+
+.about-me {
+
+
+    margin: 0 auto;
+    width: 75%;
+    margin-top: 20px;
+
+}
 
 .my_work {
 
@@ -89,11 +100,6 @@ p {
 	
 }
 
-#about_me {
-
-	margin: 20px auto; 
-	
-}
 
 
 section {
