@@ -40,6 +40,7 @@ body {
   display: block;
   margin: 5%;
   margin-top: 5%;
+     opacity: 0.9;
 }
 
 
@@ -72,6 +73,10 @@ body {
   margin: 0 auto;
   width: 75%;
   margin-top: 20px;
+  color: #0a0a0a;
+/*  box-shadow: 2px 1px 15px #333;
+  border-radius: 5px;*/
+
 	
 }
 
@@ -90,11 +95,12 @@ p {
 
 
 .about-me {
-    background-color: #D8D8D8;
-    border-radius: 5px;
-    margin: 0 auto;
-    width: 100%;
-    margin-top: 20px;
+  color: #0a0a0a;
+  background-color: #D8D8D8;
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 20px;
 
 
 }
